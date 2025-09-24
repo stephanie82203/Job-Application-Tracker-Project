@@ -20,9 +20,9 @@ Visualizes key metrics such as:
 **Data Modeling & Visualization**: Microsoft Power BI (DAX)
 **Project Documentation & Validation**: Jupyter Notebook (Python, Pandas), Git & GitHub
 ## Data Source / Data Entry
-All raw data is manually entered into a structured Excel table named `Data_Entry`. To ensure data integrity and prevent errors, several columns (such as 'Job Type' and 'Status') use dropdown lists. These lists are dynamically populated from a separate `List` sheet using Excel's data validation feature, guaranteeing consistency across all entries.
+All raw data is manually entered into a structured Excel table named `data_entry`. To ensure data integrity and prevent errors, several columns (such as 'Job Type' and 'Status') use dropdown lists. These lists are dynamically populated from a separate `list` sheet using Excel's data validation feature, guaranteeing consistency across all entries.
 ## ETL Process & Data Model
-The ETL process is handled entirely within Excel's Power Query Editor. After connecting to the `Data_Entry` table, a series of transformations are applied to clean, shape, and model the data into a star schema.
+The ETL process is handled entirely within Excel's Power Query Editor. After connecting to the `data_entry` table, a series of transformations are applied to clean, shape, and model the data into a star schema.
 Key steps include:
 - **Correcting Data Types**: Ensuring all columns are correctly formatted
 - **Creating Dimension Tables**: Extracting unique values to create clean dimension tables for companies, jobs, and applications
