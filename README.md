@@ -36,8 +36,11 @@ The final, clean tables are then related to form a star schema data model, which
 
 ## Data Visualization (Power BI)
 The final data model is loaded into Power BI to create an interactive dashboard. The dashboard is designed to provide at-a-glance insights into the job search, answering key questions through a clean and intuitive user interface. Visualizations include KPI cards for top-line metrics, charts for trend analysis, and slicers for dynamic filtering by company or job title.
+
+![Dashboard Draft](images/BI_Dashboard_draft.png)
+
 ## Detailed Walkthrough
-For an in-depth, step-by-step exploration of the data cleaning, transformation, and modeling process, including M code snippets and Python validation, please refer to the Jupyter Notebook: job_application_analysis.ipynb
+For an in-depth, step-by-step exploration of the data cleaning, transformation, and modeling process, including M code snippets and Python validation, please refer to the Jupyter Notebook: [Job Application Analysis Notebook](job_application_analysis.ipynb)
 ## Future Enhancements
 - Web Scraping: Automating the data entry process by scraping job details
 - Predictive Analysis: Building a simple model to predict the likelihood of receiving an interview based on job requirements
